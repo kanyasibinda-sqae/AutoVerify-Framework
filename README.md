@@ -22,7 +22,7 @@ This project is a **dynamic test automation framework** developed using **Seleni
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/KanyaSibinda/roman
+   git clone https://github.com/kanyasibinda-sqae/AutoVerify-Framework
    ```
 
 2. **Install Dependencies**:
@@ -46,7 +46,7 @@ Tests will be executed based on the configuration provided, and results will be 
 
 ## Reporting
 
-After running tests, the generated **Extent Reports** can be found in the `test-output/` directory. These reports provide a detailed breakdown of the test execution, including:
+After running tests, the generated **Extent Reports** can be found in the `extent-reports/` directory. These reports provide a detailed breakdown of the test execution, including:
 
 - Test statuses (pass, fail, skip)
 - Logs and error messages
