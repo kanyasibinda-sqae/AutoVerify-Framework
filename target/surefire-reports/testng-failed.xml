@@ -4,29 +4,29 @@
   <test thread-count="5" parallel="methods" name="First Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="webuitests.RunnerClass">
+      <class name="webuitests.UnitTests">
         <methods>
           <include name="beforeMethod"/>
-          <include name="validateSiteAccessibility"/>
+          <include name="validateLoginFailure" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="validateLoginFailure" invocation-numbers="0"/>
+          <include name="validateSiteAccessibility"/>
         </methods>
-      </class> <!-- webuitests.RunnerClass -->
+      </class> <!-- webuitests.UnitTests -->
     </classes>
   </test> <!-- First Test(failed) -->
   <test thread-count="5" parallel="methods" name="Second Test(failed)" verbose="0">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="webuitests.RunnerClass">
+      <class name="webuitests.UnitTests">
         <methods>
           <include name="beforeMethod"/>
-          <include name="validateSiteAccessibility"/>
+          <include name="validateLoginFailure" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="validateLoginFailure" invocation-numbers="0"/>
+          <include name="validateSiteAccessibility"/>
         </methods>
-      </class> <!-- webuitests.RunnerClass -->
+      </class> <!-- webuitests.UnitTests -->
     </classes>
   </test> <!-- Second Test(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -7,4 +7,5 @@ webui\utils\ScreenshotUtil.class
 webui\testng\Listener.class
 webui\utils\FileUtils.class
 webui\applications\PageApplications.class
+webui\constants\URL.class
 webui\utils\WebDriverUtil.class

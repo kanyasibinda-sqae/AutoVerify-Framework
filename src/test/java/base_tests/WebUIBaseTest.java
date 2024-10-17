@@ -15,7 +15,6 @@ public abstract class WebUIBaseTest {
 
     protected PageApplications pageApplications;
     protected SoftAssert softAssert;
-    ExtentReportUtil extentReportUtil = new ExtentReportUtil();
 
 
     @Parameters({"browser"})

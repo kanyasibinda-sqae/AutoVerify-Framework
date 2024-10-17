@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 18.09 s <<< FAILURE! -- in TestSuite
-webuitests.RunnerClass.validateSiteAccessibility -- Time elapsed: 0.213 s <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 180.9 s <<< FAILURE! -- in TestSuite
+webuitests.UnitTests.validateSiteAccessibility -- Time elapsed: 0.398 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
-	expected [https://parabank.parasoft.com/parabank/index.ht] but found [https://parabank.parasoft.com/parabank/index.htm]
+	expected [https://parabank.parasoft.com/parabank/index.html] but found [https://parabank.parasoft.com/parabank/index.htm]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at webuitests.RunnerClass.validateSiteAccessibility(RunnerClass.java:16)
+	at webuitests.UnitTests.validateSiteAccessibility(UnitTests.java:16)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -23,14 +23,13 @@ The following asserts failed:
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-webuitests.RunnerClass.validateLoginFailure[tester23@gmail.com, tester23](1) -- Time elapsed: 1.963 s <<< FAILURE!
+webuitests.UnitTests.validateLoginFailure[tester23@gmail.com, tester23](1) -- Time elapsed: 1.676 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
-	expected [https://parabank.parasoft.com/parabank/index.ht] but found [https://parabank.parasoft.com/parabank/index.htm],
-	did not expect to find [true] but found [false]
+	expected [https://parabank.parasoft.com/parabank/index.html] but found [https://parabank.parasoft.com/parabank/index.htm]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at webuitests.RunnerClass.validateLoginFailure(RunnerClass.java:25)
+	at webuitests.UnitTests.validateLoginFailure(UnitTests.java:25)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -45,13 +44,13 @@ The following asserts failed:
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-webuitests.RunnerClass.validateSiteAccessibility -- Time elapsed: 0.247 s <<< FAILURE!
+webuitests.UnitTests.validateSiteAccessibility -- Time elapsed: 0.259 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
-	expected [https://parabank.parasoft.com/parabank/index.ht] but found [https://parabank.parasoft.com/parabank/index.htm]
+	expected [https://parabank.parasoft.com/parabank/index.html] but found [https://parabank.parasoft.com/parabank/index.htm]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at webuitests.RunnerClass.validateSiteAccessibility(RunnerClass.java:16)
+	at webuitests.UnitTests.validateSiteAccessibility(UnitTests.java:16)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -66,14 +65,13 @@ The following asserts failed:
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-webuitests.RunnerClass.validateLoginFailure[tester23@gmail.com, tester23](1) -- Time elapsed: 0.653 s <<< FAILURE!
+webuitests.UnitTests.validateLoginFailure[tester23@gmail.com, tester23](1) -- Time elapsed: 1.483 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
-	expected [https://parabank.parasoft.com/parabank/index.ht] but found [https://parabank.parasoft.com/parabank/index.htm],
-	did not expect to find [true] but found [false]
+	expected [https://parabank.parasoft.com/parabank/index.html] but found [https://parabank.parasoft.com/parabank/index.htm]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at webuitests.RunnerClass.validateLoginFailure(RunnerClass.java:25)
+	at webuitests.UnitTests.validateLoginFailure(UnitTests.java:25)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
