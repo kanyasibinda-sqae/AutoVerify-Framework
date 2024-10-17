@@ -1,3 +1,3 @@
 data_providers\LoginCredentials.class
-webuitests\RunnerClass.class
+webuitests\UnitTests.class
 base_tests\WebUIBaseTest.class
