@@ -2,20 +2,11 @@ package base_tests;
 
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
-
-import webui.applications.PageApplications;
-import webui.constants.URL;
 import webui.utils.ExtentListenerUtil;
-import webui.utils.ExtentReportUtil;
 import webui.utils.WebDriverUtil;
 
 @Listeners(ExtentListenerUtil.class)
 public abstract class WebUIBaseTest {
-
-    protected PageApplications pageApplications;
-    protected SoftAssert softAssert;
-
 
     @Parameters({"browser"})
     @BeforeTest
@@ -29,10 +20,7 @@ public abstract class WebUIBaseTest {
     public void beforeMethod(ITestResult iTestResult, @Optional("chrome") String browser) {
         System.out.println("BeforeMethod: Setting up WebDriverUtil for browser: " + browser);
         WebDriverUtil.setDriver(browser);
-        System.out.println("BeforeMethod: Navigating to Parabank");
-        WebDriverUtil.getURL(URL.parabank);
-        pageApplications = new PageApplications(WebDriverUtil.getDriver());
-        softAssert = new SoftAssert();
+        System.out.println("BeforeMethod: Navigating to ");
     }
 
     @AfterMethod
