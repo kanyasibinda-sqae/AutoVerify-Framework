@@ -1,4 +1,3 @@
-webui\pages\LoginPage.class
 Main.class
 webui\selenium\SeleniumWrapper.class
 webui\utils\ExtentReportUtil.class
@@ -6,6 +5,4 @@ webui\utils\ExtentListenerUtil.class
 webui\utils\ScreenshotUtil.class
 webui\testng\Listener.class
 webui\utils\FileUtils.class
-webui\applications\PageApplications.class
-webui\constants\URL.class
 webui\utils\WebDriverUtil.class

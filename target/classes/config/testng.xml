@@ -7,8 +7,7 @@
         <classes>
             <class name="webuitests.UnitTests">
                 <methods>
-                    <include name="validateSiteAccessibility"/>
-                    <include name="validateLoginFailure"/>
+                    <include name="demoTest"/>
                 </methods>
             </class>
         </classes>
@@ -20,8 +19,7 @@
         <classes>
             <class name="webuitests.UnitTests">
                 <methods>
-                    <include name="validateSiteAccessibility"/>
-                    <include name="validateLoginFailure"/>
+                    <include name="demoTest"/>
                 </methods>
             </class>
         </classes>
