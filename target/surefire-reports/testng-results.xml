@@ -2,85 +2,23 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-19T19:04:39 SAST" name="All Test Suite" finished-at="2024-10-19T19:04:50 SAST" duration-ms="10906">
+  <suite started-at="2024-10-21T18:51:27 SAST" name="All Test Suite" finished-at="2024-10-21T18:51:27 SAST" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2024-10-19T19:04:39 SAST" name="First Test" finished-at="2024-10-19T19:04:43 SAST" duration-ms="4033">
+    <test started-at="2024-10-21T18:51:27 SAST" name="First Test" finished-at="2024-10-21T18:51:27 SAST" duration-ms="37">
       <class name="webuitests.UnitTests">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:webuitests.UnitTests@43ee72e6]" started-at="2024-10-19T19:04:39 SAST" name="beforeTest" finished-at="2024-10-19T19:04:40 SAST" duration-ms="346" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String)[pri:0, instance:webuitests.UnitTests@43ee72e6]" started-at="2024-10-19T19:04:40 SAST" name="beforeMethod" finished-at="2024-10-19T19:04:43 SAST" duration-ms="3142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UnitTests.demoTest()[pri:0, instance:webuitests.UnitTests@43ee72e6] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="demoTest()[pri:0, instance:webuitests.UnitTests@43ee72e6]" started-at="2024-10-19T19:04:43 SAST" name="demoTest" finished-at="2024-10-19T19:04:43 SAST" duration-ms="19" status="PASS">
+        <test-method signature="demoTest()[pri:0, instance:webuitests.UnitTests@78dd667e]" started-at="2024-10-21T18:51:27 SAST" name="demoTest" finished-at="2024-10-21T18:51:27 SAST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webuitests.UnitTests@43ee72e6]" started-at="2024-10-19T19:04:43 SAST" name="afterMethod" finished-at="2024-10-19T19:04:43 SAST" duration-ms="281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- webuitests.UnitTests -->
     </test> <!-- First Test -->
-    <test started-at="2024-10-19T19:04:44 SAST" name="Second Test" finished-at="2024-10-19T19:04:50 SAST" duration-ms="6403">
+    <test started-at="2024-10-21T18:51:27 SAST" name="Second Test" finished-at="2024-10-21T18:51:27 SAST" duration-ms="2">
       <class name="webuitests.UnitTests">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:webuitests.UnitTests@18ce0030]" started-at="2024-10-19T19:04:44 SAST" name="beforeTest" finished-at="2024-10-19T19:04:44 SAST" duration-ms="48" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String)[pri:0, instance:webuitests.UnitTests@18ce0030]" started-at="2024-10-19T19:04:44 SAST" name="beforeMethod" finished-at="2024-10-19T19:04:49 SAST" duration-ms="4980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UnitTests.demoTest()[pri:0, instance:webuitests.UnitTests@18ce0030] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="demoTest()[pri:0, instance:webuitests.UnitTests@18ce0030]" started-at="2024-10-19T19:04:49 SAST" name="demoTest" finished-at="2024-10-19T19:04:49 SAST" duration-ms="1" status="PASS">
+        <test-method signature="demoTest()[pri:0, instance:webuitests.UnitTests@233fe9b6]" started-at="2024-10-21T18:51:27 SAST" name="demoTest" finished-at="2024-10-21T18:51:27 SAST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:webuitests.UnitTests@18ce0030]" started-at="2024-10-19T19:04:49 SAST" name="afterMethod" finished-at="2024-10-19T19:04:50 SAST" duration-ms="1361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- webuitests.UnitTests -->
     </test> <!-- Second Test -->
   </suite> <!-- All Test Suite -->

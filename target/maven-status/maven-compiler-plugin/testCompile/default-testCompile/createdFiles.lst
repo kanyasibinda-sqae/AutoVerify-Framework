@@ -1,2 +1,2 @@
 webuitests\UnitTests.class
-base_tests\WebUIBaseTest.class
+basetests\WebUIBaseTest.class

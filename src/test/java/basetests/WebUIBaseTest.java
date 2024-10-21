@@ -6,7 +6,7 @@ import webui.utils.ExtentListenerUtil;
 import webui.utils.WebDriverUtil;
 
 @Listeners(ExtentListenerUtil.class)
-public abstract class WebUIBaseTest {
+public class WebUIBaseTest {
 
     @Parameters({"browser"})
     @BeforeTest
