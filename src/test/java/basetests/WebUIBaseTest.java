@@ -1,4 +1,4 @@
-package base_tests;
+package basetests;
 
 import org.testng.ITestResult;
 import org.testng.annotations.*;
