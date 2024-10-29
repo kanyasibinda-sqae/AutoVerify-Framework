@@ -50,6 +50,6 @@ After running tests, the generated **Extent Reports** can be found in the `exten
 
 - Test statuses (pass, fail, skip)
 - Logs and error messages
-- Screenshots (if configured)
+- Screenshots
 
 ## Contributing
